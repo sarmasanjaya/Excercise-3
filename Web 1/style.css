@@ -1,0 +1,167 @@
+* {
+	top: 0;
+	padding: 0;
+	font-family: 'Noto Sans' , Sans-serif;
+}
+
+.latar {
+    background-color: white;
+}
+
+
+.menu {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 180px;
+	background-image: url(menu.jpg);
+	padding-left:50px;
+}
+
+.logo {
+	width: 20%;
+	line-height: 100px;
+	float:left;
+}
+
+.logo img{
+	width: 100%;
+	line-height: 110px;
+	padding-top: 30px;
+}
+
+.nav{
+    text-align: center;
+    width: 101%;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.nav ul{
+    background: #ddd4cd;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #53bd84;
+    
+}
+.nav ul li:hover a{
+    color: white;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #c59b7d;
+    text-decoration: none;
+}
+
+form {
+	float: left;
+    width:120%;
+    padding-left: 1200px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.1);
+    border:0px solid #dbdbdb;
+}
+.button {
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.resep {
+    width: 70%;
+    color: #c59b7d;
+    background-color: #ddd4cd;
+    padding: 10px;
+    float: left;
+    margin-top: 9px;
+}
+
+.download {
+    width: 25%;
+    background-color: #ddd4cd;
+    float: right;
+    margin:10px;
+    margin-right: 10px;
+}
+
+.download img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.olin {
+    text-align: center;
+    width: 100%;
+    background-color: #ddd4cd;
+    opacity: 50%;
+    clear: both;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.olin a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.print  {
+    width: 25%;
+    float: right;
+    margin:10px;
+    margin-right: 10px;
+    font-size: 138%;   
+}
+
+.print .tulis {
+    width: 35%;
+    float: left;
+} 
+
+.print .gambar {
+    width: 65%;
+    float:left;
+}
+
+.print .gambar img {
+    width: 20%;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color:#53bd84; 
+    margin-top: 10px;
+    clear: both;
+    padding:20px;
+
+}
+
+.resep2 {
+    width: 70%;
+    color: #c59b7d;
+    background-color: #ddd4cd;
+    padding: 10px;
+    float: left;
+    margin-top: 30px;
+}
+
+.footer img {
+    position: center;
+}
